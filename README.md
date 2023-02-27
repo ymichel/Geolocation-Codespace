@@ -11,19 +11,15 @@ Create your own codespace by clicking this button. Please allow 5 minutes for au
 You are done. The installation is completed.
 
 ## Usage
-Try the example plugin in _plugins/wp-codespace_, make some changes and appreciate the advantages of a pre-configured codespace.
 
 ### Linting
-Edit the file _wordpress/wp-content/plugins/wp-codespace/wp-codespace.php_:
 - Delete a whitespace between parentheses and curly brackets and see the code linting in action. 
 - Use a right click to format the file according to [WordPress Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/).
 
 ### WordPress autocompletion
-Edit the file _wordpress/wp-content/plugins/wp-codespace/wp-codespace.php_:
 - type somewhere _"add_" and see the autocompletion suggestions especially for WordPress.
 
 ### WordPress inline documentation
-Open the file _wordpress/wp-content/plugins/wp-codespace/wp-codespace.php_:
 - hover over _add_action_ and see the documentation for that WordPress method
 
 ### WP CLI
@@ -31,13 +27,11 @@ Open the terminal (make sure, you are in the subfolder _wordpress_) and try the 
 - `wp plugin list`
 
 ### Playwright Tests
-Open the terminal and switch to the directory _wordpress/wp-content/plugins/wp-codespace_.
 - run `npm test` for an example [playwright test](https://playwright.dev/).
 
 See the test specification in the subfolder _tests_.
 
 ### SASS/CSS Compiling
-Open the terminal and switch to the directory _wordpress/wp-content/plugins/wp-codespace_.
 - change the color in the file _build/sass/styles.scss_
 - run `npm run compile:css` to compile _styles.css_
 
@@ -46,7 +40,6 @@ This repo fills WordPress with demo content from the [WordPress Theme Unit Test]
 
 ### Debugging
 [Xdebug](https://xdebug.org/) is installed and [configured for VS Code](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug). See _.vscode/launch.json_ for details.
-- set an arbitrary breakpoint in _wordpress/wp-content/plugins/wp-codespace/wp-codespace.php_
 - start debugging with _Listen for Xdebug in WordPress_. The footer-line in VS Code will turn orange
 - head your browser to the admin-panel 
 - see debugging information in VS Code

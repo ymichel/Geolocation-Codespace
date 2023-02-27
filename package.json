@@ -1,7 +1,7 @@
 {
-  "name": "wp-codespace",
+  "name": "Geolocation-Codespace",
   "version": "1.0.0",
-  "description": "wp-codespace",
+  "description": "GeolocationCodespace",
   "main": "index.js",
   "author": "Thomas Rose",
   "devDependencies": {
