@@ -37,8 +37,8 @@ npm install
 composer install
 
 # Setup local plugin
-cd $REPO_FOLDER/wordpress/wp-content/plugins/wp-codespace && npm install && npx playwright install && npm run compile:css
-code -r wp-codespace.php
+cd $REPO_FOLDER/wordpress/wp-content/plugins
+git clone https://github.com/ymichel/Geolocation-Plugin as geolocation
 
 # Setup bash
 echo export PATH=\"\$PATH:$REPO_FOLDER/vendor/bin:$REPO_FOLDER/node_modules/.bin/\" >> ~/.bashrc
