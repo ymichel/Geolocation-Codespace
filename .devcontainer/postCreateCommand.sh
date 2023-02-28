@@ -38,7 +38,9 @@ composer install
 
 # Setup local plugin
 cd $REPO_FOLDER/wordpress/wp-content/plugins
-git clone https://github.com/ymichel/Geolocation-Plugin as geolocation
+git clone https://github.com/ymichel/Geolocation-Plugin 
+mv Geolocation-Plugin geolocation
+wp plugin activate geolocation
 
 # Setup bash
 echo export PATH=\"\$PATH:$REPO_FOLDER/vendor/bin:$REPO_FOLDER/node_modules/.bin/\" >> ~/.bashrc
